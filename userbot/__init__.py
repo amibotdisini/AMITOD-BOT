@@ -553,7 +553,7 @@ with bot:
             await event.message.get_sender()
             text = (
                 f"**Hi Tod**, __Saya Menggunakan Bot SiPalingMurni__  **⚡️✫AM͢͢͢ITOD-฿OT⚡️** \n\n"
-                f"       __Ini Bot Hanya Untuk HaveFun__\n\n"
+                f"     __Ini Bot Hanya Untuk HaveFun__\n\n"
                 f"✘ **SiPalingKeren :** [✫AM͢͢͢ITOD](t.me/AmiUseriBot)\n"
                 f"✘ **Group HaveFun :** [✘Hai Tod!!✘](t.me/AmiBotSiMurni)\n"
                 f"✘ **Repo :** [RAM-UBOT](https://github.com/ramadhani892/RAM-BOT)\n"
