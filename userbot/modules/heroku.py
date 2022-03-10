@@ -135,7 +135,7 @@ async def dyno_usage(dyno):
     """
     await dyno.edit("`Memeriksa Dyno Heroku anda...`")
     await asyncio.sleep(3)
-    await dyno.edit("✨")
+    await dyno.edit("⚡️")
     await asyncio.sleep(2)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
