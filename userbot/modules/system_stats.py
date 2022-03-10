@@ -227,7 +227,7 @@ async def amireallyalive(alive):
     await alive.edit("⚡️")
     await asyncio.sleep(3)
     output = (
-        f"**     ۩  ⬚⃝⃟    {REPO_NAME} ⬚⃝⃟     ۩ ** \n\n"
+        f"**        ۩  ⬚⃝⃟    {REPO_NAME} ⬚⃝⃟     ۩ ** \n\n"
         f"\n__**{RAM_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"**🤑 SI KEREN** \n"
@@ -269,9 +269,9 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"   **♕  ✘AM͢͢͢ITOD-฿OT✘  ♕** \n"
+        f"        **♕  ✘AM͢͢͢ITOD-฿OT✘  ♕** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **SiMurniNih**             ➥ `{DEFAULTUSER}` \n"
+        f"❃ **SiMurniNih**     ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
         f"❃ **Telethon**       ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**          ➥ `Versi {python_version()}` \n"
