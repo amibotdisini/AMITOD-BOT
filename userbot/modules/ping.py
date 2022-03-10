@@ -95,13 +95,13 @@ async def _(pong):
     await ram.edit("**80% ████████▒▒**")
     await ram.edit("**100% ██████████**")
     await asyncio.sleep(2)
-    await ram.edit("✨")
+    await ram.edit("⚡️")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await ram.edit(
-        f"**🌟𝗥𝗔𝗠-𝗨𝗕𝗢𝗧🌟**\n"
+        f"**⚡️✫AM͢͢͢ITOD-฿OT⚡️**\n"
         f"** ➠  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ➠  Bᴏᴛᴠᴇʀ  :** "
@@ -116,7 +116,7 @@ async def _(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    ram = await edit_or_reply(pong, "PONG!!")
+    ram = await edit_or_reply(pong, "WOY TOD GW LAGI SANGE AH AH AH PONG!!")
     await asyncio.sleep(2)
     await ram.edit(f"{REPO_NAME}")
     await asyncio.sleep(3)
@@ -131,7 +131,7 @@ async def _(pong):
 @ram_cmd(pattern="speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
-    await spd.edit("`Menjalankan Tes Kecepatan Jaringan, Mohon Tunggu...✨`")
+    await spd.edit("`Woy Tod Gw Mau Tes Kecepatan Kontol, Mohon Tunggu Ya Tod...Kekuatan Kontol⚡️`")
     test = Speedtest()
 
     test.get_best_server()
@@ -140,7 +140,7 @@ async def speedtst(spd):
     test.results.share()
     result = test.results.dict()
 
-    await spd.edit("**Kecepatan Jaringan:\n**"
+    await spd.edit("**Kecepatan Kontol:\n**"
                    "✧ **Dimulai Pada :** "
                    f"`{result['timestamp']}` \n"
                    f" **━━━━━━━━━━━━━━━━━**\n\n"
@@ -186,7 +186,7 @@ async def pingme(pong):
     await ram.edit("`Pong🐎...........`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await ram.edit(f"**✨Oᴡɴᴇʀ : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await ram.edit(f"**✘Oᴡɴᴇʀ : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 CMD_HELP.update({
