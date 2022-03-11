@@ -310,7 +310,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**     ✘AM͢͢͢ITOD-฿OT✘** \n"
+        f"           **✘AM͢͢͢ITOD-฿OT✘** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `🤴 SiPalingMurni :`{DEFAULTUSER} \n"
