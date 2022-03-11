@@ -2734,7 +2734,7 @@ async def _(event):
     if (x == 4):
         await event.edit("**Penjara si jamet ini,dia merasa udah paling di atas**")
     if (x == 5):
-        await event.edit("*ORTU NYA JUGA DAH GAK MAU NGURUSIN**")
+        await event.edit("**ORTU NYA JUGA DAH GAK MAU NGURUSIN**")
     if (x == 6):
         await event.edit("**KARNA DIA BEBAN ORTU**")
     if (x == 7):
@@ -2744,7 +2744,7 @@ async def _(event):
     if (x == 9):
         await event.edit("**Udah Sombong, Gw Chat Dia Jawab Nya Kek Org Tolol**")
     if (x == 10):
-        await event.edit("*Tukang ngehina**")
+        await event.edit("**Tukang ngehina**")
     if (x == 11):
         await event.edit("**Mungkin otak nya dah gawaras**")
     if (x == 12):
